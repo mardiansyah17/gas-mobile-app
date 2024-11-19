@@ -1,0 +1,25 @@
+name: gas
+description: "A new Flutter project."
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ">=3.4.0 <4.0.0"
+
+dependencies:
+  audioplayers: ^6.1.0
+  flutter:
+    sdk: flutter
+  just_audio: ^0.9.42
+  socket_io_client: ^3.0.2
+  syncfusion_flutter_gauges: ^27.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/sound/
